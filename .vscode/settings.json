@@ -14,10 +14,10 @@
   "html.format.endWithNewline": true,
   "css.validate": false,
   "css.lint.unknownAtRules": "ignore",
+  "less.validate": false,
   "scss.validate": false,
   "stylelint.enable": true,
   "tailwindCSS.includeLanguages": {
     "typescriptreact": "html"
   },
-  "css.customData": [".vscode/css_custom_data.json"]
 }
