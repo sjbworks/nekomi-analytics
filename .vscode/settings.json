@@ -11,5 +11,13 @@
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "html.format.endWithNewline": true
+  "html.format.endWithNewline": true,
+  "css.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "html"
+  },
+  "css.customData": [".vscode/css_custom_data.json"]
 }
