@@ -4,10 +4,16 @@
   },
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[typescrip]": {
+    "editor.formatOnSave": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
