@@ -1,3 +1,5 @@
+import {formatValue} from '..'
+
 export const generateOption = (categories) => ({
   chart: {
     toolbar: { show: false }
@@ -5,5 +7,15 @@ export const generateOption = (categories) => ({
   xaxis: {
     type: 'category',
     categories: categories
+  },
+  yaxis: {
+    labels: {
+      formatter: (val: number) =>formatValue(val)
+    }
+  },
+  tooltip: {
+    y:{
+      formatter: (val) =>(val).toLocaleString('en')
+    }
   }
 })
