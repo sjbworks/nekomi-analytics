@@ -23,7 +23,8 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:tailwind/recommended"
   ],
   "rules": {
     "react/prop-types": "off",
