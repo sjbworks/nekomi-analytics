@@ -1,9 +1,6 @@
-# Nekomi Analytics
+# Liver Analytics
 
 
-This is a tool to analyze for Nekomi.<br>
-![Nekomi Analytics](https://user-images.githubusercontent.com/52704855/109983839-8f486080-7d46-11eb-8f9c-856c594e97f1.png)
+This is a tool to analyze for pococha liver. <br>
+I used to create the app using CRA, but I moved to Next.js.
 
-## How to use
-
-## Development
